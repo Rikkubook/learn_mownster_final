@@ -1,0 +1,194 @@
+
+
+[type="range"] {
+  -webkit-appearance: none;
+  appearance: none;
+  background-color: currentColor;
+  background-origin: content-box;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+  display: block;
+  color: inherit;
+  height: 20px;
+  padding: 0; }
+
+[type="range"]::-webkit-slider-runnable-track {
+  margin: 0 0rem; }
+
+#sample {
+  border-radius: 10px;
+  width: 100%;
+  height: 20px;
+  text-align: right; }
+
+#sample div {
+  font-size: 16px;
+  font-weight: 100;
+  line-height: 1.8; }
+
+#sample div:hover {
+  text-decoration: underline; }
+
+#sample .white {
+  color: white; }
+
+#sample .black {
+  color: black; }
+
+#hsl-h {
+  background-image: linear-gradient(to right, #F00, #FF0, #0F0, #0FF, #00F, #F0F, #F00); }
+
+#hsl-s {
+  background-image: linear-gradient(to right, #888, transparent); }
+
+#hsl-l {
+  background-image: linear-gradient(to right, #000, transparent, #FFF); }
+
+.selector__choose--choosed {
+  background-color: #f09600;
+  border: 2px solid #f09600;
+  color: #282828; }
+
+.img--Gradation {
+  opacity: 0.1; }
+
+.mouwnster__clip {
+  width: 100%;
+  height: 100%; }
+
+.clip0 {
+  -webkit-mask-image: url(../img/makeimg/M-egg1-0.png);
+  mask-image: url(../img/makeimg/M-egg1-0.png);
+  -webkit-mask-size: auto 100%;
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-position: center center; }
+
+.clip1 {
+  -webkit-mask-image: url(../img/makeimg/M-bodyshape1-0.png);
+  mask-image: url(../img/makeimg/M-bodyshape1-0.png);
+  -webkit-mask-size: auto 100%;
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-position: center center; }
+
+.clip2 {
+  -webkit-mask-image: url(../img/makeimg/M-bodyshape2-0.png);
+  mask-image: url(../img/makeimg/M-bodyshape2-0.png);
+  -webkit-mask-size: auto 100%;
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-position: center center; }
+
+.clip3 {
+  -webkit-mask-image: url(../img/makeimg/M-bodyshape3-0.png);
+  mask-image: url(../img/makeimg/M-bodyshape3-0.png);
+  -webkit-mask-size: auto 100%;
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-position: center center; }
+
+.clip4 {
+  -webkit-mask-image: url(../img/makeimg/M-bodyshape4-0.png);
+  mask-image: url(../img/makeimg/M-bodyshape4-0.png);
+  -webkit-mask-size: auto 100%;
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-position: center center; }
+
+.clip5 {
+  -webkit-mask-image: url(../img/makeimg/M-bodyshape5-0.png);
+  mask-image: url(../img/makeimg/M-bodyshape5-0.png);
+  -webkit-mask-size: auto 100%;
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-position: center center; }
+
+.burger-menu li:nth-child(1) span {
+  color: #823c2d; }
+
+.burger-menu li:nth-child(1) span:nth-child(1) {
+  color: #f09600; }
+
+body {
+  overflow-x: hidden; }
+
+.content {
+  margin-top: 100px;
+  margin-bottom: 10px; }
+
+@media screen and (min-width: 768px) {
+  .content {
+    margin-top: 100px; 
+    margin-bottom: 100px; } }
+
+.bgc__cloud {
+  z-index: -1;
+  top: -20%;
+  opacity: 0.8; }
+
+.bgc__cloudisland {
+  z-index: -1;
+  transform: translateX(-15%); }
+
+@media screen and (min-width: 768px) {
+  .bgc__cloudisland {
+    z-index: -1;
+    bottom: -10%; } }
+
+.mownster .mownster__egg {
+  padding-bottom: 60%;
+  transform: translateX(-50%); }
+  .mownster .mownster__egg .mownster__body--img {
+    height: 100%; }
+
+.mownster .mownster__buttons {
+  transform: translateX(-50%); }
+  .mownster .mownster__buttons i {
+    font-size: 35px;
+    color: #823c2d; }
+    .mownster .mownster__buttons i:hover {
+      color: #f09600;
+      transition-duration: 0.5s; }
+
+.mownster .icon--disabled {
+  pointer-events: none;
+  cursor: default; }
+  .mownster .icon--disabled i {
+    color: #787878; }
+
+@media screen and (min-width: 768px) {
+  .mownster .mownster__buttons i {
+    font-size: 40px; } }
+
+.selector__items {
+  height: 80px;
+  overflow-y: scroll; }
+
+@media screen and (min-width: 768px) {
+  .selector__items {
+    height: 350px;
+    overflow-y: hidden; } }
+
+.icon--fb {
+  order: 6; }
+
+.popup__icons img {
+  max-width: 150px; }
+
+@media screen and (min-width: 768px) {
+  .icon--fb {
+    order: 3; } }
+
+.dis-n {
+  display: none; }
+
+#dragarea {
+  width: 100%;
+  height: 100%; }
+
+.mousemove {
+  cursor: move; }
+
+.mouwnster__eyesposition {
+  z-index: 1; }
+
+.mouwnster__mouthposition {
+  z-index: 2; }
+
+.mouwnster__accessoryposition {
+  z-index: 3; }

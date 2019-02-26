@@ -1,0 +1,35 @@
+/* 搭配colorPicker使身體有遮罩顏色 */
+.bodyshape1{
+    -webkit-mask: url(../img/makeimg/M-bodyshape1.svg) no-repeat;
+    mask: url(../img/makeimg/M-bodyshape1.svg) no-repeat;
+    -webkit-mask-size: 100% 100%;
+    mask-size: 100% 100%;
+}
+.bodyshape2{
+    -webkit-mask: url(../img/makeimg/M-bodyshape2.svg) no-repeat;
+    mask: url(../img/makeimg/M-bodyshape2.svg) no-repeat;
+    -webkit-mask-size: 100% 100%;
+    mask-size: 100% 100%;
+}
+.bodyshape3{
+    -webkit-mask: url(../img/makeimg/M-bodyshape3.svg) no-repeat;
+    mask: url(../img/makeimg/M-bodyshape3.svg) no-repeat;
+    -webkit-mask-size: 100% 100%;
+    mask-size: 100% 100%;
+}
+.bodyshape4{
+    -webkit-mask: url(../img/makeimg/M-bodyshape4.svg) no-repeat;
+    mask: url(../img/makeimg/M-bodyshape4.svg) no-repeat;
+    -webkit-mask-size: 100% 100%;
+    mask-size: 100% 100%;
+}
+.bodyshape5{
+    -webkit-mask: url(../img/makeimg/M-bodyshape5.svg) no-repeat;
+    mask: url(../img/makeimg/M-bodyshape5.svg) no-repeat;
+    -webkit-mask-size: 100% 100%;
+    mask-size: 100% 100%;
+}
+/* 讓身體有影子 */
+.img--Gradation{
+  opacity: 0.5;
+}

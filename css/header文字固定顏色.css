@@ -1,0 +1,39 @@
+<!-- 客製蛋 -->
+.burger-menu li:nth-child(1) span{
+    color: #823c2d;
+}
+.burger-menu li:nth-child(1) span:nth-child(1){
+    color: #f09600;
+}
+
+<!-- 選美 -->
+.burger-menu li:nth-child(2) span{
+    color: #823c2d;
+}
+.burger-menu li:nth-child(2) span:nth-child(1){
+    color: #f09600;
+}
+
+<!-- 課程 -->
+.burger-menu li:nth-child(3) span{
+    color: #823c2d;
+}
+.burger-menu li:nth-child(3) span:nth-child(1){
+    color: #f09600;
+}
+
+<!-- 遊戲 -->
+.burger-menu li:nth-child(4) span{
+    color: #823c2d;
+}
+.burger-menu li:nth-child(4) span:nth-child(1){
+    color: #f09600;
+}
+
+<!-- 商城 -->
+.burger-menu li:nth-child(5) span{
+    color: #823c2d;
+}
+.burger-menu li:nth-child(5) span:nth-child(1){
+    color: #f09600;
+}

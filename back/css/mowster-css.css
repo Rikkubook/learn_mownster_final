@@ -1,0 +1,60 @@
+*{
+	font-family: microsoft jhenghei;
+	font-size: 16px;
+	color: #282828;
+}
+h1, h2, h3, h4, h5, h6{
+	font-family: microsoft jhenghei;
+	color: #282828;
+}
+.w-100{
+	width: 80%;
+	height: 80%;
+}
+a{color: #96c34b;}
+.colorOrange{color: #f09600;}
+.colorBrown{color: #823c2d;}
+.colorGray{color: #c8c8c8;}
+.colorDeepGray{color: #787878;}
+.colorExtraGray{color: #5a5a5a;}
+.colorBlack{color: #282828;}
+.colorBlue{color: #73c3be;}
+.colorPink{color: #ff91af;}
+.colorYellowGreen{color: #c8cd5f;}
+.colorGreen{color: #96c34b;}
+.colorPurple{color: #aa8cb4;}
+.colorDeepOrange{color: #dc7800;}
+.no-skin .navbar .navbar-toggle {
+    background-color: #96c34b;
+}
+.no-skin .navbar .navbar-toggle.display, .no-skin .navbar .navbar-toggle[data-toggle=collapse]:not(.collapsed) {
+    background-color: #c8cd5f;
+    box-shadow: inset 1px 1px 2px 0 rgba(0,0,0,.25);
+    border-color: rgba(255,255,255,.35);
+}
+p{
+	color: #96c34b;
+}
+.navbar{
+	background-color: #c8c8c8;
+}
+.table-header{
+	background-color: #f09600;
+}
+.active span{
+	color: #823c2d;
+	font-size: 18px;
+}
+.no-skin .nav-list li.active>a:after {
+    border-right-color: #c8cd5f;
+}
+.no-skin .nav-list>li.active:after {
+    border: 1px solid #c8cd5f;
+}
+.nav-list>li>a{
+	padding-left: 20px;
+}
+.arrow::before{
+	color: #96c34b;
+                                                                                                         
+}

@@ -1,0 +1,134 @@
+
+#admin-logo img{
+	width: 100%;
+}
+#home-island{
+	position: absolute;
+	z-index: 9;
+	left: -10%;
+	bottom: 0;
+}
+#home-house{
+	position: absolute;
+	z-index: 9;
+	left: 14%;
+	bottom: 16%;
+}
+#home-house img{
+	width: 100%;
+	margin-left: 10%;
+}
+#egg-island{
+	animation: homegroup 15s .5s infinite ease-in;
+}
+#home-island,#home-house{
+	animation: homegroup 12s infinite cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+#home-member-1,#home-member-2,#home-member-3,#home-member-4,.home-member-5{
+	position: absolute;
+	z-index: 9;
+	animation: homegroup 12s infinite cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+#home-member-1{
+	left: 10%;
+	bottom: 12%;
+}
+#home-member-2{
+	left: 30%;
+	bottom: 9%;
+}
+#home-member-3{
+	left: 0%;
+	bottom: 10%;
+}
+#home-member-4{
+	left: 15%;
+	bottom: 8%;
+}
+#egg-island{
+	position: absolute;
+	z-index: 7;
+	right: 0%;
+	top: 75%;
+}
+#game-island{
+	position: absolute;
+	z-index: 5;
+	left: 3%;
+	top: 65%;
+}
+#admin-cloud{
+	position: absolute;
+	z-index: 8;
+	overflow: hidden;
+	top: 75%;
+	animation: cloudflow 30s infinite;
+}
+#admin-cloud01{
+	position: absolute;
+	z-index: 6;
+	top: 55%;
+	animation: cloudflow 30s -10s infinite reverse;
+}
+@keyframes homegroup{
+    0%{transform: translateY(0px);}
+    20%{transform: translateY(-10px);}
+    30%{transform: translateY(0px);}
+    40%{transform: translateY(-10px);}
+    50%{transform: translateY(0px);}
+    60%{transform: translateY(-10px);}
+    70%{transform: translateY(0px);}
+    80%{transform: translateY(-10px);}
+    90%{transform: translateY(0px);}
+    100%{transform: translateY(-10px);}
+}
+@keyframes cloudflow{
+  from {
+    -webkit-transform: translateX(-100%); }
+  to {
+    -webkit-transform: translateX(100%); } 
+}
+
+@media screen and (min-width: 768px) {
+	#home-island{
+		left: -10%;
+		bottom: 0%;
+	}
+	#home-house{
+		left: 9%;
+		bottom: 27%;
+	}
+	#home-house img{
+		margin-left: 30%;
+	}
+	#home-member-1{
+		left: 11%;
+		bottom: 16%;
+	}
+	#home-member-2{
+		left: 21%;
+		bottom: 17%;
+	}
+	#home-member-3{
+		left: 1%;
+		bottom: 20%;
+	}
+	#home-member-4{
+		left: -7%;
+		bottom: 16%;
+	}
+	#egg-island{
+		right: 0%;
+		top: 66%;
+	}
+	#game-island{
+		left: 12%;
+		top: 50%;
+	}
+	#admin-cloud{
+		top: 45%;
+	}
+	#admin-cloud01{
+		top: 46%;
+	}
+}
